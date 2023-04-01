@@ -1,0 +1,98 @@
+html{
+    background-color:rgb(221, 224, 255);
+    color:rgb(255, 155, 112);
+    font-family:fantasy;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.d
+{width:100px;
+height: 100px;
+border-style: solid;
+float:left;
+    border-color: #FBA285;
+    text-align: center;
+    font-size: 30px;  
+}
+
+#pojemnik{
+   float: left;
+}
+#pojemnik2{
+   float: left;
+}
+#pojemnik3{
+   float: left;
+}
+.i
+{width:100px;
+height: 50px;
+border-style: solid;
+float:left;
+text-align: center;
+font-size: 30px;
+color: rgb(151, 180, 255);
+line-height: 100px;   
+background-color: rgb(255, 234, 189);
+ border-color: rgb(151, 180, 255);
+}
+
+#d1
+{
+ width:50px;
+height: 50px;
+border-style: solid;
+text-align: center;
+font-size: 30px;
+line-height: 50px;    
+}
+#d3
+{
+ width:50px;
+height: 50px;
+border-style: solid;
+text-align: center;
+border-color: rgb(255, 155, 112);
+font-size: 30px;
+line-height: 50px; 
+background-color: rgb(98, 231, 165);
+}
+#d2
+{
+ width:50px;
+height: 50px;
+border-style: solid;
+text-align: center;
+border-color: rgb(255, 155, 112);
+font-size: 30px;
+line-height: 50px; 
+background-color: #3366ff;
+}
+#d4
+{
+ width:50px;
+height: 50px;
+border-style: solid;
+text-align: center;
+font-size: 30px;
+line-height: 50px; 
+background-color: #ffcc33;
+}
+.wyl
+{
+   background-color:deepskyblue; 
+}
+.cz
+{
+   background-color: #3366ff; 
+}
+.trafione{
+    color:#ffcc33;
+}
+#legenda div 
+{float:left;}
+
+.przy{
+    padding-right: 30px;
+}
