@@ -1,0 +1,120 @@
+html{
+    background-color: slategray;
+}
+
+div div{
+    width: 300px;
+    height: 300px;
+    
+}
+
+#rodzic{
+    transform-style: preserve-3d;
+    margin-left: 300px;
+    margin-top: 300px;
+    transform:translateZ(150px);
+    position:relative;
+    animation:obrot 4s linear infinite;
+}
+
+@keyframes obrot
+{
+  0% { transform:rotateX(0) rotateZ(0); }
+  100% { transform:rotateX(360deg) rotateZ(360deg) rotateY(360deg); }
+}
+
+#czerwony{
+    background-image: url(1.jpg);
+    position: absolute;
+    transform:translateZ(150px);
+}
+
+@keyframes a{
+     0% { transform: translateZ(150px) rotateY(0deg)};
+
+     100% {
+            transform: perspective(2000px)rotateY(360deg) rotateX(360deg);
+                
+     }
+}
+
+#zielony{
+    background-image: url(3.jpg);
+    position: absolute;
+    transform: translateZ(-150px);
+    
+    
+}
+@keyframes b{
+     0% {transform: translateZ(-100px) rotateY(-90deg)};
+
+     100% {
+            transform: perspective(2000px)rotateY(360deg) rotateX(360deg);
+                
+     }
+}
+
+#niebieski{
+    background-image: url(4.png);
+    position: absolute;
+    transform:rotateY(-90deg) translateZ(150px);
+}
+
+@keyframes c{
+     0% {transform: translateZ(-100px) rotateY(-180deg)};
+
+     100% {
+            transform: perspective(2000px)rotateY(180deg) rotateX(360deg);
+                
+     }
+}
+
+#zolty{
+    background-image: url(5.jpg);
+    position: absolute;
+    transform:rotateX(90deg) translateZ(0px);
+    margin-top:-150px;
+    
+}
+
+@keyframes d{
+     0% {transform: translateZ(-100px) rotateY(90deg)};
+
+     100% {
+            transform: perspective(2000px)rotateY(450deg) rotateX(360deg);
+                
+     }
+}
+
+#rozowy{
+    background-image: url(6.jpeg);
+    position: absolute;
+    transform:rotateY(90deg) translateZ(150px);
+    
+}
+
+@keyframes e{
+     0% {transform: translateZ(-100px) rotateX(-90deg)};
+
+     100% {
+            transform: perspective(2000px)rotateY(0deg) rotateX(0deg);
+                
+     }
+}
+
+#czarny{
+    background-image: url(7.jpg);
+    transform:rotateY(0deg) translateZ(0px) rotateX(90deg);
+    margin-top:150px;
+    position: absolute;
+    
+}
+
+@keyframes f{
+     0% {transform: translateZ(-100px) rotateX(90deg)};
+
+     100% {
+            transform: perspective(2000px)rotateY(0deg) rotateX(0deg);
+                
+     }
+}
