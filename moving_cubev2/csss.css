@@ -1,0 +1,79 @@
+html{
+    background-color: azure;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: dodgerblue;
+}
+
+#k1{
+    background-color: rgba(252, 159, 83, 0.5);
+    margin:auto;
+    margin-top: 100px;
+  transform-style: preserve-3d;
+    animation: a 25s linear infinite;
+}
+@keyframes a
+{
+    0% {transform: perspective(0px) rotateY(0deg);}
+
+    
+    100%{ transform: perspective(2000px)
+     rotateY(720deg);
+ }
+}
+
+#k2{
+    
+    background-color:rgba(152, 247, 222, 0.5);
+   
+    animation: b 10s linear infinite;
+}
+
+@keyframes b {
+     0% {transform: perspective(0px)rotateX(0deg)rotateY(0deg);}
+
+            100% {
+                transform: perspective(2000px)rotateX(360deg);
+                
+     }
+        }
+
+
+#k3{
+    background-color:rgba(0, 0, 60, 0.5);
+   
+    margin-top: -306px;
+    animation: c 10s linear infinite;
+}
+
+@keyframes c {
+     0% {transform: perspective(0px)rotateX(60deg)rotateY(0deg);}
+
+            100% {
+                transform: perspective(2000px)rotateX(420deg);
+                
+     }
+        }
+
+
+#k4{
+    background-color:rgba(240, 91, 180, 0.5);
+    margin-top: -306px;
+    animation: d 10s linear infinite;
+}
+
+
+@keyframes d {
+     0% {transform: perspective(0px)rotateX(120deg)rotateY(0deg);}
+
+     100% {
+            transform: perspective(2000px)rotateX(480deg);
+                
+     }
+        }
+
+
